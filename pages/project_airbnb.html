@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Yixuan(Janice) Zhang Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.4/css/bulma.css">
+    <link rel="stylesheet" href="../style.css">
+  </head>
+  <body>
+    <div id="app" class="container">
+      <nav class="level">
+        <div class="level-left">
+          <div class="level-item">
+            <p class="subtitle is-4"><strong>Y.Z.</strong></p>
+          </div>
+        </div>
+
+        <div class="level-right">
+          <div class="navbar-end">
+            <a class="navbar-item" href="#" target="_blank">Home</a>
+            <a class="navbar-item" href="#" target="_blank">Projects</a>
+            <a class="navbar-item" href="#" target="_blank">About</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="project_container">
+      <div class="project_bg">
+        <img src="../img/project_airbnb/bg_airbnb.jpeg">
+        <div class="layover_bgText_airbnb">
+          <p class="title is-1">What We Learn About Airbnb</p>
+          <p class="title is-4">Data visualization tool that helps hosts increase Airbnb income</p>
+        </div>
+      </div>
+      <div class="project_description_title">
+        <p class="title is-1">About The Visualization</p>
+        <p>In this visualization, each circle represents a host based in Boston.
+           The size of the circle represents the estimated monthly income from
+           renting place(s) out. The larger the circle, the higher the income
+           will be.</p>
+        <p class="highlight indent">Expected income/ month = Price/ night * Reviews/ month * Minimum nights + Cleaning fee * Reviews/ month</p>
+        <p>Both X axis and Y axis contain 5 options, including Minimum nights,
+          Reviews Per Month, Cleaning Fee, Price, Calculated Host Listings.
+          Users are able to explore the relationship among these 20 combinations.
+          Inspired by Inside Airbnb, an Airbnb guest may leave a review after stay.
+          The minimum night, price and number of reviews per month can be used
+          to estimate the monthly income for each listing. Some hosts may have
+          more than one listing, and this is how ‘Calculated Host Listings’ comes.</p>
+        </br>
+        <p>The filter section on the right hand side contains 5 dimensions,
+          including Room Type, Cancellation Policy, Amenities, Family Pets,
+          and Neighbourhood. Each dimension includes a few filters. Each filter
+          can be seen as a VARIABLE.You can select or deselect any variable(s)
+          to compare and contrast the trend. All the filters have been selected
+          as default with background in grey + text in white . If deselecting
+          any filter, it will turn into background in white + text in grey.
+          Multiple filters can be applied across dimensions. Only one of the
+          five dimensions can be used as color palette. For example, select
+          minimum nights from X axis and price from Y axis, and use Room Type
+          as color palette. You will see at least </br>
+            <span class="indent"> 1) the overall price of entire home will be
+              higher than that of Private Room.</span></br>
+            <span class="indent"> 2) an Airbnb host have higher chances to make
+              more money when setting up 1-4 nights as minimum nights
+              (through the clustered rectangles). </span>
+        </p>
+
+        <div class="text_chunk">
+          <img src="../img/project_foodpairing/CuisineIngredient.png">
+          <p><span class="highlight">Cuisine Ingredient Matrix</span>
+            shows the popularity of the food ingredient
+            in different cuisines, and what ingredient goes well with.
+            The darker, the more popular of that ingredient is used in the
+            particular cuisine. </p>
+        </div>
+        <div class="text_chunk">
+          <img src="../img/project_foodpairing/CuisineSimilarity.png">
+          <p><span class="highlight">Cuisine Similarity Matrix</span>
+            demonstrates how similar between two cuisines.
+            The darker, the higher similarity between the two cuisines.</p>
+        </div>
+      </div>
+
+      <div class="project_description_title">
+        <p class="title is-1">Acknowledgements</p>
+        <p><a href="https://uranusbean.github.io/cuisineRecipe/">See demo here</a>.
+          This visualization was created in D3.js by Yixuan (Janice) Zhang.
+          The code for this visualization is available on
+          <a href="https://github.com/uranusbean/cuisineRecipe">Github</a>.</p>
+      </div>
+    </div>
+
+    <script src="../js/main.js"></script>
+  </body>
+</html>

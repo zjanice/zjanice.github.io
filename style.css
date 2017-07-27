@@ -1,0 +1,56 @@
+.level{
+  height: 100px;
+}
+
+.tile-container {
+  width: 70%;
+  margin: 3% auto;
+}
+
+/*----- project container ------*/
+/*.project_bg {
+  width: 100%;
+}*/
+
+.project_bg img{
+  object-fit: cover;
+  width:100%;
+  height:500px;
+  position: relative;
+}
+
+.layover_bgText_cuisine {
+   position: absolute;
+   top: 200px;
+   left: 1000px;
+   width: 100%;
+}
+
+.layover_bgText_cuisine p{
+  color: white;
+}
+
+.layover_bgText_airbnb {
+  position: absolute;
+  top: 200px;
+  left: 175px;
+  width: 100%;
+}
+
+.project_description_title {
+  width: 70%;
+  margin: 5% auto;
+}
+
+.highlight {
+  font-weight: bold;
+}
+
+.indent {
+  padding-left: 8%;
+  padding-top: 2%;
+}
+
+.text_chunk {
+  margin-top: 5%;
+}
