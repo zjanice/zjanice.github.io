@@ -26,7 +26,7 @@
    width: 100%;
 }
 
-.layover_bgText_cuisine, .layover_bgText_airbnb p{
+.layover_bgText_cuisine, .layover_bgText_airbnb, .layover_bgText_hydrateme p{
   color: white;
 }
 
@@ -35,6 +35,13 @@
   top: 220px;
   left: 540px;
   width: 100%;
+}
+
+.layover_bgText_hydrateme {
+  position: absolute;
+  top: 220px;
+  left: 165px;
+  width: 30%;
 }
 
 .project_description_title {
