@@ -26,14 +26,14 @@
    width: 100%;
 }
 
-.layover_bgText_cuisine p{
+.layover_bgText_cuisine, .layover_bgText_airbnb p{
   color: white;
 }
 
 .layover_bgText_airbnb {
   position: absolute;
-  top: 200px;
-  left: 175px;
+  top: 220px;
+  left: 540px;
   width: 100%;
 }
 
@@ -53,4 +53,15 @@
 
 .text_chunk {
   margin-top: 5%;
+}
+
+/*----- about ------*/
+.about-content {
+  width: 50%;
+  margin: 2% auto;
+}
+
+.about_section_title {
+  margin-top: 3%;
+  font-size: 1.5em;
 }
