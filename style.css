@@ -1,3 +1,7 @@
+body {
+  font-size: 1.2em;
+}
+
 .level{
   height: 100px;
 }
@@ -42,6 +46,26 @@
   top: 220px;
   left: 165px;
   width: 30%;
+}
+
+.hydrateMe_sliderContainer {
+  margin-top: -120px;
+}
+
+.layover_bgText_babycarelog {
+  position: absolute;
+  top: 220px;
+  left: 800px;
+  width: 30%;
+}
+
+.layover_bgText_babycarelog> p {
+  font-weight: bolder;
+  color: white;
+}
+
+#babycarelog_title {
+  font-size: 4em;
 }
 
 .project_description_title {

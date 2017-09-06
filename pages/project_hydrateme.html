@@ -3,9 +3,11 @@
   <head>
     <meta charset="utf-8">
     <title>Yixuan(Janice) Zhang Portfolio</title>
+    <link rel="stylesheet" href="../bower_components/owl.carousel/dist/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="../bower_components/owl.carousel/dist/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.4/css/bulma.css">
     <link rel="stylesheet" href="../style.css">
-    
+
   </head>
   <body>
     <div id="app" class="container">
@@ -78,6 +80,13 @@
       </div>
 
       <div class="project_description_title">
+        <p class="title is-1">User Testing</p>
+        <div class="videoEmbed">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/-M4jf23Dyak" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <div class="project_description_title">
           <p class="title is-1">Building Up</p>
           <span class="highlight">System Design</span>
           <p>HydrateMe is designed as a public display, which would be placed in
@@ -102,13 +111,7 @@
             HTML/CSS/JavaScript, Ajax</p>
       </div>
 
-      <div class="project_description_title">
-        <p class="title is-1">User Testing</p>
-        <div class="videoEmbed">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/-M4jf23Dyak" frameborder="0" allowfullscreen></iframe>
-        </div>
-      </div>
-
+<!--
       <div class="">
         <div class="columns">
           <div class="column"><img src="../img/project_hydrateme/hm-imac.png"></div>
@@ -116,12 +119,19 @@
           <div class="column"><img src="../img/project_hydrateme/hm-drink.png"></div>
           <div class="column"><img src="../img/project_hydrateme/hm-food.png"></div>
         </div>
+      </div> -->
+    <div class="hydrateMe_sliderContainer">
+      <div class="owl-carousel owl-theme">
+        <div class="item"><img src="../img/project_hydrateme/hm-imac.png"></div>
+        <div class="item"><img src="../img/project_hydrateme/hm-imac-signup.png"></div>
+        <div class="item"><img src="../img/project_hydrateme/hm-drink.png"></div>
+        <div class="item"><img src="../img/project_hydrateme/hm-food.png"></div>
       </div>
-
-
     </div>
 
-
+    </div>
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../bower_components/owl.carousel/dist/owl.carousel.min.js"></script>
     <script src="../js/main.js"></script>
   </body>
 </html>
