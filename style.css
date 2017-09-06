@@ -11,7 +11,7 @@ body {
 }
 
 .projectIntro a{
-  color: #717171;
+  color: #717171 !important;
 }
 
 .marginTop3 {
