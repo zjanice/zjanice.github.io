@@ -3,11 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>Yixuan(Janice) Zhang Portfolio</title>
-    <link rel="stylesheet" href="../bower_components/owl.carousel/dist/assets/owl.carousel.min.css" />
-    <link rel="stylesheet" href="../bower_components/owl.carousel/dist/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.4/css/bulma.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="../style.css">
-
   </head>
   <body>
     <div id="app" class="container">
@@ -79,12 +77,18 @@
               a similar behavior trend.</li>
           </ul>
         </p>
-        <div class="owl-carousel owl-theme">
-          <div class="item"><img src="../img/project_babycarelog/mappingPersona_1.png"></div>
-          <div class="item"><img src="../img/project_babycarelog/mappingPersona_2.png"></div>
-          <div class="item"><img src="../img/project_babycarelog/mappingPersona_3.png"></div>
-        </div>
 
+        <div class="columns marginTop3">
+          <div class="column is-one-third">
+            <img src="../img/project_babycarelog/mappingPersona_1.png">
+          </div>
+          <div class="column">
+            <img src="../img/project_babycarelog/mappingPersona_2.png">
+          </div>
+          <div class="column">
+            <img src="../img/project_babycarelog/mappingPersona_3.png">
+          </div>
+        </div>
       </div>
 
       <div class="project_description_title">
@@ -100,10 +104,14 @@
           <li>- Understand user motivation and frustration points</li>
           <li>- Find touch points that our product can make a difference</li>
         </ul>
-        <div class="owl-carousel owl-theme">
-          <div class="item"><img src="../img/project_babycarelog/primaryPersona.png"></div>
-          <div class="item"><img src="../img/project_babycarelog/secondaryPersona.png"></div>
-          <div class="item"><img src="../img/project_babycarelog/negativePersona.png"></div>
+
+        <div class="marginTop3 w3-content w3-display-container">
+          <img class="mySlides" src="../img/project_babycarelog/primaryPersona.png">
+          <img class="mySlides" src="../img/project_babycarelog/secondaryPersona.png">
+          <img class="mySlides" src="../img/project_babycarelog/negativePersona.png">
+
+          <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+          <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
         </div>
       </div>
       <div class="project_description_title">
@@ -114,10 +122,17 @@
           my target users. I also designed card sorting exercises using
           <a href="https://www.optimalworkshop.com/">OptimalSort card sort</a>.
         </p>
-        <div class="owl-carousel owl-theme">
-          <div class="item"><img src="../img/project_babycarelog/cardSorting_1.png"></div>
-          <div class="item"><img src="../img/project_babycarelog/cardSorting_2.png"></div>
-          <div class="item"><img src="../img/project_babycarelog/cardSorting_3.png"></div>
+
+        <div class="columns marginTop3">
+          <div class="column is-one-third">
+            <img src="../img/project_babycarelog/cardSorting_1.png">
+          </div>
+          <div class="column">
+            <img src="../img/project_babycarelog/cardSorting_2.png">
+          </div>
+          <div class="column">
+            <img src="../img/project_babycarelog/cardSorting_3.png">
+          </div>
         </div>
       </div>
 
@@ -129,8 +144,6 @@
       </div>
 
     </div>
-    <script src="../bower_components/jquery/dist/jquery.js"></script>
-    <script src="../bower_components/owl.carousel/dist/owl.carousel.min.js"></script>
     <script src="../js/main.js"></script>
   </body>
 </html>

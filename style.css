@@ -6,10 +6,22 @@ body {
   height: 100px;
 }
 
-.tile-container {
+.project {
+  margin-top: 3%;
+}
+
+.projectIntro a{
+  color: #717171;
+}
+
+.marginTop3 {
+  margin-top: 3%;
+}
+/*.tile-container {
   width: 70%;
   margin: 3% auto;
-}
+}*/
+
 
 /*----- project container ------*/
 /*.project_bg {
@@ -34,6 +46,7 @@ body {
   color: white;
 }
 
+/* ---- Projec  Airbnb ----*/
 .layover_bgText_airbnb {
   position: absolute;
   top: 220px;
@@ -41,6 +54,11 @@ body {
   width: 100%;
 }
 
+#airbnbVideoContainer{
+  margin: 5% 15%;
+}
+
+/* ---- Projec  Hydrateme ----*/
 .layover_bgText_hydrateme {
   position: absolute;
   top: 220px;
@@ -50,6 +68,11 @@ body {
 
 .hydrateMe_sliderContainer {
   margin-top: -120px;
+}
+
+/* ---- Projec  BabyCareLog ----*/
+.babyCareLogSliderContainer {
+  margin-top: 5%;
 }
 
 .layover_bgText_babycarelog {
