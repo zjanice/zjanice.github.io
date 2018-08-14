@@ -49,6 +49,14 @@
   color: white;
 }
 
+/* ---- Projec  IDMVis ----*/
+.layover_bgText_idmvis {
+  position: absolute;
+  top: 130px;
+  left: 540px;
+  width: 100%;
+}
+
 /* ---- Projec  Airbnb ----*/
 .layover_bgText_airbnb {
   position: absolute;
