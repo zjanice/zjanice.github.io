@@ -1,145 +1,179 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Yixuan(Janice) Zhang Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.4/css/bulma.css">
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <div id="app" class="container">
-      <nav class="level">
-        <div class="level-left">
-          <div class="level-item">
-            <p class="subtitle is-4"><strong>Yixuan (Janice) Zhang</strong></p>
-          </div>
-        </div>
 
-        <div class="level-right">
-          <div class="navbar-end">
-            <a class="navbar-item" href="index.html">Projects</a>
-            <a class="navbar-item" href="pages/about.html">About</a>
-          </div>
-        </div>
-      </nav>
+<head>
+	<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<!-- 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-105676805-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
 
-      <div class="projectContianer">
-        <div class="columns project">
-          <div class="column is-2">
-            <figure class="image is-128x128">
-              <img src="img/circled_projectIcons/circled_IDMVis.png">
-            </figure>
-          </div>
-          <div class="column projectIntro is-9">
-            <a href="pages/project_idmvis.html">
-              <h1 class="title">IDMVis: Temporal Event Sequence Visualization</h1>
-              <p>IDMVis is an open source interactive visualization tool for
-                showing <span class="highlight">type 1 diabetes patient data</span>.
-                It is designed to help clinicians perform temporal inference tasks:
-                specifically for recommending adjustments to patient insulin
-                protocol, diet, and behavior.
-              </p>
-            </a>
-          </div>
-        </div>
+		function gtag() {
+			dataLayer.push(arguments)
+		};
+		gtag('js', new Date());
 
+		gtag('config', 'UA-105676805-1');
+	</script> -->
 
-        <div class="columns project">
-          <div class="column is-2">
-            <figure class="image is-128x128">
-              <img src="img/circled_projectIcons/circled_cuisine.png">
-            </figure>
-          </div>
-          <div class="column projectIntro is-9">
-            <a href="pages/project_cuisine.html">
-              <h1 class="title">Food Pairing Visualization</h1>
-              <!-- <h2 class="subtitle">Data visualization of cuisine and ingredient</h2> -->
-              <p>In this project, we compare and contrast the use of food ingredients
-                in different cuisines. We develop
-                <span class="highlight">Cuisine Ingredient Matrix</span>
-                to show the popularity of the food ingredient in different cuisines,
-                and what ingredient goes well with.
-                We also create <span class="highlight">Cuisine Similarity Matrix</span>
-                to demonstrate how similar between two cuisines.
-              </p>
-            </a>
-          </div>
-        </div>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Yixuan Zhang</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+		integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+</head>
 
-        <div class="columns project">
-          <div class="column is-2">
-            <figure class="image is-128x128">
-              <img src="img/circled_projectIcons/circled_airbnb.png">
-            </figure>
-          </div>
-          <div class="column projectIntro is-9">
-            <a href="pages/project_airbnb.html">
-              <h1 class="title">Airbnb Data Visualization</h1>
-              <p> What do we learn from Airbnb popular hosts? This project aims at
-                understanding how to help hosts increase Airbnb income using a
-                visualization tool.
-              </p>
-            </a>
-          </div>
-        </div>
+<body>
+<!-- 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<span class="navbar-brand mb-0 h1">Yixuan Zhang</span>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+			aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav">
+				<li id="nav-index" class="nav-item active">
+					<a class="nav-link">Home</a>
+				</li>
+				<li id="nav-publication" class="nav-item">
+					<a class="nav-link">Publications</a>
+				</li>
+				<li id="nav-teaching" class="nav-item">
+					<a class="nav-link">Projects</a>
+				</li>
+			</ul>
+		</div>
+	</nav> -->
 
-        <div class="columns project">
-          <div class="column is-2">
-            <figure class="image is-128x128">
-              <img src="img/circled_projectIcons/circled_baby.png">
-            </figure>
-          </div>
-          <div class="column projectIntro is-9">
-            <a href="pages/project_babycarelog.html">
-              <h1 class="title">Baby Care Log Redesign</h1>
-              <p> In this project, we conducted user research, redesigned the
-                information architecture and wireframes of Baby Care Log - an
-                Android application that tracks and monitors key aspects of
-                baby's growth and development.
-              </p>
-            </a>
-          </div>
-        </div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<div class="row mt-4 mb-4">
+					<div class="col-8">
+						<img class="rounded-circle mx-auto d-block img-fluid" src="assets/yixuan_profile.jpg">
+					</div>
+				</div>
+				<h4 class="text-dark">Yixuan ("Janice") Zhang</h4>
+				<p class="mb-4 text-secondary">
+					Ph.D. Student at Northeastern University
+				</p>
+				<div class="row">
+					<div class="col-1">
+						<i class="fas fa-map-marker-alt"></i>
+					</div>
+					<div class="col-11">
+						177 Huntington Ave., 9<sup>th</sup> Floor, Boston, MA
+					</div>
+				</div>
 
-        <div class="columns project">
-          <div class="column is-2">
-            <figure class="image is-128x128">
-              <img src="img/circled_projectIcons/circled_hydrateMe.png">
-            </figure>
-          </div>
-          <div class="column projectIntro is-9">
-            <a href="pages/project_hydrateme.html">
-              <h1 class="title">HydrateMe</h1>
-              <p> HydrateMe is designed as a public display with social networking
-                features to motivate people to keep hydrated. This project uses
-                human-centered process to conduct user research and user study.
-              </p>
-            </a>
-          </div>
-        </div>
+				<div class="row">
+					<div class="col-1">
+						<img style="width: 1em; height:1em;" src="assets/google_scholar.png">
+					</div>
+					<div class="col-10">
+						<a class="text-dark" href="https://scholar.google.com/citations?user=NJJJ45AAAAAJ&hl=en">
+							Google Scholar
+						</a>
+					</div>
+				</div>
 
-        <!-- <div class="columns project">
-          <div class="column is-2">
-            <figure class="image is-128x128">
-              <img src="img/circled_projectIcons/circled_hydrateMe.png">
-            </figure>
-          </div>
-          <div class="column projectIntro is-9">
-            <a href="pages/project_glass.html">
-              <h1 class="title">HowTo</h1>
-              <p> HowTo is a Google Glass application that helps people
-                learn how to finish a task.
-              </p>
-            </a>
-          </div>
-        </div> -->
-      </div>
+				<div class="row">
+					<div class="col-1">
+						<i class="fab fa-twitter"></i>
+					</div>
+					<div class="col-10">
+						<a class="text-dark" href="https://twitter.com/YZhang_Janice">Twitter</a>
+					</div>
+				</div> 
 
-    </div>
+				<div class="row">
+					<div class="col-1">
+						<i class="far fa-envelope"></i>
+					</div>
+					<div class="col-10">
+						<a class="text-dark">zhang.yixua[at]husky.neu.edu</a>
+					</div>
+				</div> 
 
-    <div class="banner_intro"></div>
+				<br>
+				<div class="dropdown-divider"></div>
+				<br>
 
+				<div class="row">
+					<div class="col-1">
+						<i class="fas fa-home"></i>
+					</div>
+					<div class="col-10">
+						<a class="text-dark" href="index.html">Home</a> 
+					</div>
+				</div> 
 
-    <script src="js/main.js"></script>
-  </body>
+				<div class="row">
+					<div class="col-1">
+						<i class="fas fa-copy"></i>
+					</div>
+					<div class="col-10">
+						<a class="text-dark" href="publication.html">Publications</a> 
+					</div>
+				</div> 
+
+				<div class="row">
+					<div class="col-1">
+						<i class="fas fa-project-diagram"></i>
+					</div>
+					<div class="col-10">
+						<a class="text-dark" href="projects.html">Projects</a> 
+					</div>
+				</div> 
+
+				<div class="row">
+					<div class="col-1">
+						<i class="far fa-newspaper"></i>
+					</div>
+					<div class="col-10">
+						<a class="text-dark" href="news.html">Recent news</a> 
+					</div>
+				</div> 
+			
+				<div class="row">
+					<div class="col-1">
+						<i class="fas fa-portrait"></i>
+					</div>
+					<div class="col-10">
+						<a target="_blank" class="text-dark" href="assets/CV.pdf">CV</a> 
+					</div>
+				</div> 
+
+			<!-- 	<br>
+				<div class="dropdown-divider"></div>
+				<br> -->
+
+				<!-- <div class="row">
+					<div class="col-1">
+						<i class="ai ai-orcid"></i>
+					</div>
+					<div class="col-10">
+						<a class="text-dark" href="https://orcid.org/0000-0003-3532-6521">ORCID</a>
+					</div>
+				</div> -->
+			</div>
+			<div id="right-content" class="col-md-8">
+			</div>
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+	</script>
+	<script src="navigation.js"></script>
+
+	<body>
+
 </html>
