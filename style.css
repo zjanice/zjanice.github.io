@@ -142,7 +142,7 @@ a:link{
 }
 
 a {
-	color:#97a199;
+	color: #97a199 !important;
 }
 
 .header{
