@@ -1,7 +1,7 @@
 @media screen{
 	.container{
 		width: 60%;
-		min-width: 600px;
+		min-width: 800px;
 		margin: 0 auto;
 		font-weight: 200;
 	}
@@ -32,7 +32,7 @@
 @media screen and (max-width:1920px){
 	.container{
 		width: 70%;
-		min-width: 600px;
+		min-width: 800px;
 		margin: 0 auto;
 		font-weight: 200;
 	}
