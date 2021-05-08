@@ -128,13 +128,13 @@ h4{
 
 p{
 	margin: 0px;
-	font-size: 12px;
+	font-size: 11px;
 }
 
 .publication-list li {
 	list-style-type:square;
 	margin-top: 5px;
-	font-size: 14px;
+	font-size: 11px;
 }
 
 /*a:link{
@@ -162,12 +162,12 @@ a {
 	/*margin-top: 40px;*/
 	/*margin-top: 10px;*/
 	margin-bottom: 5px;
-	font-size: 24px;
+	font-size: 20px;
 	line-height: 40px;
 }
 
 .email{
-	font-size: 12px;
+	font-size: 11px;
 	line-height: 15px;
 }
 
@@ -213,7 +213,7 @@ a {
 	bottom: 0px;
 	left: 0px;
 	border-top: solid 1px #eeeeee;
-	font-size: 12px;
+	font-size: 11px;
 	color: #bbbbbb;
 	margin-top: 50px;
 	padding: 0 10px;
