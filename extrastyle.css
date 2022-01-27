@@ -4,10 +4,10 @@
 hr {
   margin: 1.5em auto;
   position: relative;
-  height: 9px;
-  width: 9px;
+  height: 25px;
+  width: 700px;
   border: transparent;
   overflow: visible;
-  background-image: url(/assets/divider.svg) no-repeat center center fixed;
+  background-image: url(/assets/divider.svg) no-repeat fixed !important;
   /*background-image: url('data:image/svg+xml;utf8,<svg width="9" height="9" viewBox="0 0 9 9" xmlns="http://www.w3.org/2000/svg"><rect x="0.75" y="0.5" width="8" height="8" rx="4" fill="%231CB0A8" /></svg>');*/
 }
