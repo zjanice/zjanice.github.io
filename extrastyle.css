@@ -2,12 +2,12 @@
 /*----divider style----*/
 
 .mydivider{
-  margin: 1.5em auto;
+  margin: 0.5em auto;
   position: relative;
   height: 25px;
   border: transparent;
   overflow: visible;
-  background: url(/assets/divider.svg) no-repeat !important;
+  background: url(/assets/divider.svg) repeat !important;
   /*background-image: url('data:image/svg+xml;utf8,<svg width="9" height="9" viewBox="0 0 9 9" xmlns="http://www.w3.org/2000/svg"><rect x="0.75" y="0.5" width="8" height="8" rx="4" fill="%231CB0A8" /></svg>');*/
 }
 
