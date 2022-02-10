@@ -4,7 +4,7 @@
 .mydivider{
   margin: 0.5em auto;
   position: relative;
-  height: 10px;
+  height: 9px;
   border: transparent;
   overflow: visible;
   background: url(/assets/divider.svg) repeat !important;
