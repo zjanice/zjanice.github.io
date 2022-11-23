@@ -2,28 +2,57 @@
 <html>
 
 <head>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-35504422-2"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
+	<script type='text/javascript'>
+		window.smartlook || (function (d) {
+			var o = smartlook = function () {
+					o.api.push(arguments)
+				},
+				h = d.getElementsByTagName('head')[0];
+			var c = d.createElement('script');
+			o.api = new Array();
+			c.async = true;
+			c.type = 'text/javascript';
+			c.charset = 'utf-8';
+			c.src = 'https://web-sdk.smartlook.com/recorder.js';
+			h.appendChild(c);
+		})(document);
+		smartlook('init', 'ad4d6a5b9a00e08eb3c060659606672bd39e3a4e', {
+			region: 'eu'
+		});
+	</script>
 
-	  gtag('config', 'UA-35504422-2');
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async
+		src="https://www.googletagmanager.com/gtag/js?id=UA-35504422-2">
+	</script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-35504422-2');
 	</script>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Yixuan Zhang</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-		integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+	<link rel="stylesheet"
+		href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+		crossorigin="anonymous">
+	<link rel="stylesheet"
+		href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+		integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+		crossorigin="anonymous">
+	<link rel="stylesheet"
+		href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
 	<link rel="stylesheet" type="text/css" href="extrastyle.css">
 </head>
 
 <body>
-<!-- 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	<!-- 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 		<span class="navbar-brand mb-0 h1">Yixuan Zhang</span>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
 			aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,28 +78,39 @@
 			<div class="col-md-4">
 				<div class="row mt-4 mb-4">
 					<div class="col-8">
-						<img class="rounded-circle mx-auto d-block img-fluid" src="assets/yixuan_profile.jpg">
+						<img class="rounded-circle mx-auto d-block img-fluid"
+							src="assets/yixuan_profile.jpg">
 					</div>
 				</div>
 				<h4 class="text-dark">Yixuan ("Janice") Zhang</h4>
+				<p>
+					<small>Pronounce as [y-ee] [sh-oo-en] [j-AH-ng]
+						<a href="https://namedrop.io/janicezhang"
+							class="text-info"> <i
+								class="fas fa-headphones"></i> </a> </small>
+				</p>
+
 				<p class="mb-4 text-secondary">
-					Ph.D. candidate in Human-Centered Computing </br> Georgia Institute of Technology
+					Ph.D. candidate in Human-Centered Computing </br> Georgia
+					Institute of Technology
 				</p>
 				<!-- <div class="row">
 					<div class="col-1">
 						<i class="fas fa-map-marker-alt"></i>
 					</div>
 					<div class="col-11">
-						177 Huntington Ave., 9<sup>th</sup> Floor, Boston, MA
+						Address
 					</div>
-				</div> -->
-
+				</div>
+ -->
 				<div class="row">
 					<div class="col-1">
-						<img style="width: 1em; height:1em;" src="assets/google_scholar.png">
+						<img style="width: 1em; height:1em;"
+							src="assets/google_scholar.png">
 					</div>
 					<div class="col-10">
-						<a class="text-dark" href="https://scholar.google.com/citations?user=NJJJ45AAAAAJ&hl=en">
+						<a class="text-dark"
+							href="https://scholar.google.com/citations?user=NJJJ45AAAAAJ&hl=en">
 							Google Scholar
 						</a>
 					</div>
@@ -81,9 +121,10 @@
 						<i class="fab fa-twitter"></i>
 					</div>
 					<div class="col-10">
-						<a class="text-dark" href="https://twitter.com/YZhang_Janice">Twitter</a>
+						<a class="text-dark"
+							href="https://twitter.com/YZhang_Janice">Twitter</a>
 					</div>
-				</div> 
+				</div>
 
 				<div class="row">
 					<div class="col-1">
@@ -92,12 +133,13 @@
 					<div class="col-10">
 						<a class="text-dark">yixuan@gatech.edu</a>
 					</div>
-				</div> 
+				</div>
+
 
 				<br>
 				<div class="mydivider"></div>
 				<br>
-
+				<!-- 
 				<div class="row">
 					<div class="col-1">
 						<i class="fas fa-home"></i>
@@ -114,35 +156,158 @@
 					<div class="col-10">
 						<a class="text-dark" href="publication.html">Publications</a> 
 					</div>
-				</div> 
+				</div>  -->
 
-			<!-- 	<div class="row">
+				<!-- 	<div class="row">
 					<div class="col-1">
 						<i class="fas fa-project-diagram"></i>
 					</div>
 					<div class="col-10">
 						<a class="text-dark" href="projects.html">Projects</a> 
 					</div>
-				</div> 
- -->
+				</div>  -->
+
+				<!-- <br>
+				<div class="dropdown-divider"></div>
+				<br> -->
+
 				<div class="row">
 					<div class="col-1">
 						<i class="far fa-newspaper"></i>
 					</div>
 					<div class="col-10">
-						<a class="text-dark" href="news.html">Recent news</a> 
+						<a class="text-dark font-weight-bold"
+							href="news.html">Recent news</a>
+						<small><a href="news.html" class="text-info">Read
+								more... </a> </small>
 					</div>
-				</div> 
-			
-				<!-- <div class="row">
+				</div>
+
+				<div class="row">
+					<div class="col-1">
+						<i class="fas fa-award"></i>
+					</div>
+					<div class="col-10">
+						<small>[Aug. 2022]</small> </br>
+						I was honored to be named a <a class="text-info"
+							href="https://risingstars.utexas.edu/profiles/yixuan-janice-zhang">"Rising
+							Star in EECS"</a> 2022!
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-1">
+						<i class="fas fa-award"></i>
+					</div>
+					<div class="col-10">
+						<small>[Aug. 2022]</small> </br>
+						I was honored to be selected as a <a class="text-info"
+							href="https://gvu.gatech.edu/gvu-graduate-student-awards-program-2022">"Foley
+							Scholar"</a> (highest award for student excellence
+						in research contributions to computing) at Georgia
+						Tech.
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-1">
+						<i class="fas fa-copy"></i>
+					</div>
+					<div class="col-10">
+						<small>[July 2022] </small> </br>
+						Our paper, "Visualization Design Practices in a Crisis:
+						Behind the Scenes with COVID-19 Dashboard Creators" was
+						accepted to VIS'22!
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-1">
+						<i class="fas fa-copy"></i>
+					</div>
+					<div class="col-10">
+						<small>[Feb. 2022] </small> </br>
+						Our other paper, "Investigating Older Adults’ Attitudes
+						towards Crisis Informatics Tools: Opportunities for
+						Enhancing Community Resilience during Disasters", was
+						also accepted at CHI'22!
+					</div>
+				</div>
+
+
+				<div class="row">
+					<div class="col-1">
+						<i class="fas fa-flag"></i>
+					</div>
+					<div class="col-10">
+						<small>[Jan. 2022] </small> </br>
+						I passed my PhD dissertation proposal defense!
+					</div>
+				</div>
+
+
+				<div class="row">
+					<div class="col-1">
+						<i class="fas fa-copy"></i>
+					</div>
+					<div class="col-10">
+						<small>[Nov. 2021] </small> </br>
+						Our paper, "Shifting Trust: Examining How Trust and
+						Distrust Emerge, Transform, and Collapse in COVID-19
+						Information Seeking", was accepted at CHI'22!
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-1">
+						<i class="fas fa-microphone"></i>
+					</div>
+					<div class="col-10">
+						<small>[Nov. 2021]</small> </br>
+						I gave a presentation at a webinar--"The Past, Present,
+						and Future of COVID-19 Dashboards"--organized by the
+						World Health Organization (WHO) on December 9th, 2021.
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-1">
+						<i class="fas fa-microphone"></i>
+					</div>
+					<div class="col-10">
+						<small>[Oct. 2021] </small></br>
+						I was invited as a panelist at a VIS'21 panel "What is
+						the Role of VIS in Combating COVID-19?".
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-1">
+						<i class="fas fa-award"></i>
+					</div>
+					<div class="col-10">
+						<small>[Aug. 2021]</small> </br>
+						I was honored to receive the Foley Scholar Finalist at
+						Georgia Tech.
+					</div>
+				</div>
+
+
+
+
+
+
+				<!-- 		<div class="row">
 					<div class="col-1">
 						<i class="fas fa-portrait"></i>
 					</div>
 					<div class="col-10">
 						<a target="_blank" class="text-dark" href="assets/CV.pdf">CV</a> 
 					</div>
-				</div> 
- -->
+				</div>  -->
+
+
+
 				<!-- <div class="row">
 					<div class="col-1">
 						<i class="ai ai-orcid"></i>
@@ -158,13 +323,18 @@
 	</div>
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous">
 	</script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+	<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous">
 	</script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+	<script
+		src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous">
 	</script>
 	<script src="navigation.js"></script>
 

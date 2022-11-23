@@ -1,5 +1,5 @@
 #!/bin/bash
 
 cp index.html publication.html
-cp index.html teaching.html
-cp index.html mgpusim.html
+cp index.html projects.html
+cp index.html news.html
