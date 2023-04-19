@@ -238,3 +238,51 @@ a {
 	height: 16px;
 }
 
+
+
+// Responsive navbar
+//
+// Custom styles for responsive collapsing and toggling of navbar contents.
+// Powered by the collapse Bootstrap JavaScript plugin.
+
+// When collapsed, prevent the toggleable navbar contents from appearing in
+// the default flexbox row orientation. Requires the use of `flex-wrap: wrap`
+// on the `.navbar` parent.
+.navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 1;
+  // For always expanded or extra full navbars, ensure content aligns itself
+  // properly vertically. Can be easily overridden with flex utilities.
+  align-items: center;
+}
+
+// Button for toggling the navbar when in its collapsed state
+.navbar-toggler {
+  padding: $navbar-toggler-padding-y $navbar-toggler-padding-x;
+  @include font-size($navbar-toggler-font-size);
+  line-height: 1;
+  background-color: transparent; // remove default button style
+  border: $border-width solid transparent; // remove default button style
+  @include border-radius($navbar-toggler-border-radius);
+
+  @include hover-focus() {
+    text-decoration: none;
+  }
+}
+
+// Keep as a separate element so folks can easily override it with another icon
+// or image file as needed.
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  content: "";
+  background: 50% / 100% 100% no-repeat;
+}
+
+.navbar-nav-scroll {
+  max-height: $navbar-nav-scroll-max-height;
+  overflow-y: auto;
+}
+
